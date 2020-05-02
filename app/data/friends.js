@@ -25,19 +25,19 @@ var friendsArray = [
             3,
             3,
             4,
-            5,
+            4,
             3,
             2,
-            5,
-            5,
-            5
+            4,
+            4,
+            4
         ]
     },
     {
         name: "Tyler",
         photo: "https://djambro44.github.io/FriendFinder/app/public/images/tylerPic",
         scores: [
-            5,
+            4,
             2,
             3,
             1,
@@ -46,7 +46,7 @@ var friendsArray = [
             2,
             2,
             2,
-            5
+            4
         ]
     },
     {
@@ -57,8 +57,8 @@ var friendsArray = [
             3,
             1,
             3,
-            5,
-            5,
+            4,
+            4,
             2,
             1,
             2,
@@ -69,7 +69,7 @@ var friendsArray = [
         name: "Victor",
         photo: "https://djambro44.github.io/FriendFinder/app/public/images/vicPic",
         scores: [
-            5,
+            4,
             2,
             3,
             2,
@@ -78,7 +78,7 @@ var friendsArray = [
             2,
             1,
             2,
-            5
+            4
         ]
     },
     {
