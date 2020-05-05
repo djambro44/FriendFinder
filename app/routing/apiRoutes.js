@@ -12,10 +12,11 @@ module.exports = function (app) {
     app.post("/api/friends", function (req, res) {
         //get user input
         var userInput = req.body;
+        console.log(req.body);
 
         //make user scores into integers
         for (i = 0; i < userInput.scores.length; i++) {
-            user.scores[i] = parseInt(user.scores[i]);
+            userInput.scores[i] = parseInt(userInput.scores[i]);
         }
 
         // //make the first friend a match and then check if any other scores are better
@@ -47,7 +48,7 @@ module.exports = function (app) {
         for (var i = 0; i < friends.length; i++) {
             var totalDifference = 0;
             for (var j = 0; j < friends[i].scores.length; j++) {
-                var difference = Math.abs(user.scores[j] - friends[i].scores[j]);
+                var difference = Math.abs(userInput.scores[j] - friends[i].scores[j]);
                 totalDifference += difference;
             }
 
@@ -59,7 +60,7 @@ module.exports = function (app) {
         }
 
         // after finding match, add user to friend array
-        friends.push(user);
+        friends.push(userInput);
 
         // send back to browser the best friend match
         res.json(friends[bestFriendIndex]);

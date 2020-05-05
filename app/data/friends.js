@@ -3,7 +3,7 @@
 var friendsArray = [
     {
         name: "Grant",
-        photo: "https://djambro44.github.io/FriendFinder/app/public/images/grantPic",
+        photo: "https://djambro44.github.io/FriendFinder/app/public/images/grantPic.jpg",
         scores: [
             1,
             2,
@@ -19,7 +19,7 @@ var friendsArray = [
     },
     {
         name: "Miles",
-        photo: "https://djambro44.github.io/FriendFinder/app/public/images/milesPic",
+        photo: "https://djambro44.github.io/FriendFinder/app/public/images/milesPic.jpg",
         scores: [
             4,
             3,
@@ -35,7 +35,7 @@ var friendsArray = [
     },
     {
         name: "Tyler",
-        photo: "https://djambro44.github.io/FriendFinder/app/public/images/tylerPic",
+        photo: "https://djambro44.github.io/FriendFinder/app/public/images/tylerPic.jpg",
         scores: [
             4,
             2,
@@ -51,7 +51,7 @@ var friendsArray = [
     },
     {
         name: "Connor",
-        photo: "https://djambro44.github.io/FriendFinder/app/public/images/connorPic",
+        photo: "https://djambro44.github.io/FriendFinder/app/public/images/connorPic.jpg",
         scores: [
             2,
             3,
@@ -67,7 +67,7 @@ var friendsArray = [
     },
     {
         name: "Victor",
-        photo: "https://djambro44.github.io/FriendFinder/app/public/images/vicPic",
+        photo: "https://djambro44.github.io/FriendFinder/app/public/images/vicPic.png",
         scores: [
             4,
             2,
@@ -83,7 +83,7 @@ var friendsArray = [
     },
     {
         name: "Ryan",
-        photo: "https://djambro44.github.io/FriendFinder/app/public/images/rynePic",
+        photo: "https://djambro44.github.io/FriendFinder/app/public/images/rynePic.jpg",
         scores: [
             1,
             2,
