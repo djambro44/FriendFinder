@@ -11,3 +11,7 @@ Then you will fill out your personality survey!
 After you click submit the app with match you with a friend from the database who most closely matches your selection on the survey
 
 ## Congrats! You have a new bestfriend! 
+
+[Click here for a live demo!](https://calm-dawn-13996.herokuapp.com/)
+
+
